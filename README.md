@@ -1,0 +1,2 @@
+# Ada Out-of-Bounds Array Access
+This repository demonstrates a common runtime error in Ada: accessing an array element outside its defined bounds.  The `bug.ada` file contains code that attempts to access an element beyond the array's limits, resulting in a `Constraint_Error` exception.  The solution, found in `bugSolution.ada`, demonstrates how to prevent this error using appropriate array bounds checking and potentially using container types with better bounds checking.
